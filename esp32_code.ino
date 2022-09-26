@@ -27,8 +27,8 @@
 #include "secrets.h"
 #include "ThingSpeak.h" // always include thingspeak header file after other header files and custom macros
 
-char ssid[] = SECRET_SSID; // your network SSID (name)
-char pass[] = SECRET_PASS; // your network password
+char ssid[] = "Revenant";  // your network SSID (name)
+char pass[] = "12345679";  // your network password
 int keyIndex = 0;          // your network key Index number (needed only for WEP)
 WiFiClient client;
 
